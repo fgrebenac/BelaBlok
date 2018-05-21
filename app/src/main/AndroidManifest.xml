@@ -13,7 +13,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,44 +24,59 @@
 
         <activity
             android:name=".NewGamePopup"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name=".SaveGameStartInput"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".AddNewPartija"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".IgraActivity"></activity>
+        <activity android:name=".IgraActivity"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".DeleteIgraActivity"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".DeletePartijaActivity"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".PartijaActivity"></activity>
+        <activity android:name=".PartijaActivity"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".NewInput"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".DeleteZapisActivity"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".QuickGameActivity"></activity>
+        <activity android:name=".QuickGameActivity"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".QuickNewInput"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".DeleteQuickZapisActivity"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".QuickPartijaPoints"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"></activity>
 
         <activity android:name=".StartNewQuickGame"
-            android:theme="@style/TransparentTheme"></activity>
+            android:theme="@style/TransparentTheme"
+            android:screenOrientation="portrait"
+            ></activity>
 
     </application>
 
