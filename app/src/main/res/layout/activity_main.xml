@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bela_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_below="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/separator_background"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appName"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNewGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="32dp"
+        android:tint="@android:color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="#009900"
+        app:elevation="10dp"
+        app:rippleColor="@android:color/black"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        />
+
+</RelativeLayout>

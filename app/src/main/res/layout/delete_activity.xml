@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@drawable/popup_background"
+    android:padding="4dp"
+    android:layout_margin="60dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Are you sure you want to delete this?"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="4dp"
+        />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Delete"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        style="?android:borderlessButtonStyle"
+        android:layout_marginTop="8dp"
+        android:foreground="?android:selectableItemBackground"
+        />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Cancel"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        style="?android:borderlessButtonStyle"
+        android:layout_margin="4dp"
+        android:foreground="?android:selectableItemBackground"
+        />
+
+</LinearLayout>

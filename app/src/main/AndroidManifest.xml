@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fgrebenac.belablok">
+
+    <application
+        android:name=".BelaBlok"
+        android:allowBackup="true"
+        android:icon="@mipmap/ikona_white"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ikona_white"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NewGamePopup"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity
+            android:name=".SaveGameStartInput"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".AddNewPartija"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".IgraActivity"></activity>
+
+        <activity android:name=".DeleteIgraActivity"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".DeletePartijaActivity"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".PartijaActivity"></activity>
+
+        <activity android:name=".NewInput"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".DeleteZapisActivity"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".QuickGameActivity"></activity>
+
+        <activity android:name=".QuickNewInput"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".DeleteQuickZapisActivity"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".QuickPartijaPoints"
+            android:theme="@style/TransparentTheme"></activity>
+
+        <activity android:name=".StartNewQuickGame"
+            android:theme="@style/TransparentTheme"></activity>
+
+    </application>
+
+</manifest>

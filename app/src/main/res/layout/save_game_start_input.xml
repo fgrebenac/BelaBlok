@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/popup_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/igrac1row"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        >
+
+        <TextView
+            android:id="@+id/igrac1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Igrac 1:"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/igrac1name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/igrac2row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/igrac1row"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp"
+        >
+
+        <TextView
+            android:id="@+id/igrac2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Igrac 2:"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/igrac2name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/popup_separator_background"
+        android:layout_below="@id/igrac2row"
+    />
+
+    <LinearLayout
+        android:id="@+id/igrac3row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/igrac2row"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp"
+        >
+
+        <TextView
+            android:id="@+id/igrac3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Igrac 3:"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/igrac3name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/igrac4row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/igrac3row"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp"
+        >
+
+        <TextView
+            android:id="@+id/igrac4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Igrac 4:"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/igrac4name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/popup_separator_background"
+        android:layout_below="@id/igrac4row"
+        />
+
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/igrac4row"
+        android:text="Start game"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_background"
+        style="?android:borderlessButtonStyle"
+        android:foreground="?android:selectableItemBackground"
+        />
+
+
+
+</RelativeLayout>

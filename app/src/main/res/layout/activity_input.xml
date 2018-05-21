@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_input"
+        tools:context="com.fgrebenac.belablok.NewInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10.0"
+        android:background="@drawable/popup_background"
+        android:padding="16dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BODOVI"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:weightSum="2.0">
+
+        <TextView
+            android:id="@+id/nasiBodovi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="MI"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/vasiBodovi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="VI"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:weightSum="2.0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ourPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/yourPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZVANJA"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:weightSum="2.0">
+
+        <TextView
+            android:id="@+id/mi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="MI"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/vi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="VI"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:weightSum="2.0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ourCalls"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/yourCalls"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:weightSum="2"
+        android:padding="4dp"
+        >
+
+        <ToggleButton
+            android:id="@+id/zvaliSmo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="Zvali smo"
+            android:textOn="Zvali smo"
+            android:background="@drawable/button_background"
+            style="?android:borderlessButtonStyle"
+            android:layout_margin="2dp"
+            android:foreground="?android:selectableItemBackground"
+            android:textAllCaps="false"
+            android:alpha="0.2"
+            />
+
+        <ToggleButton
+            android:id="@+id/zvaliSu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="Zvali su"
+            android:textOn="Zvali su"
+            android:background="@drawable/button_background"
+            style="?android:borderlessButtonStyle"
+            android:layout_margin="2dp"
+            android:foreground="?android:selectableItemBackground"
+            android:textAllCaps="false"
+            android:alpha="0.2"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:weightSum="2"
+        android:padding="4dp"
+        >
+
+        <Button
+            android:id="@+id/clearAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Obrisi sve"
+            android:background="@drawable/button_background"
+            style="?android:borderlessButtonStyle"
+            android:layout_margin="2dp"
+            android:foreground="?android:selectableItemBackground"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/upisiBodove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upisi bodove"
+            android:background="@drawable/button_background"
+            style="?android:borderlessButtonStyle"
+            android:layout_margin="2dp"
+            android:foreground="?android:selectableItemBackground"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

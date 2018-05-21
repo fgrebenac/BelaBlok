@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BelaBlok</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="bodovi_array">
+        <item>1001</item>
+        <item>701</item>
+        <item>501</item>
+    </string-array>
+</resources>
