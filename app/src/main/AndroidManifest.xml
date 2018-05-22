@@ -9,12 +9,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ikona_white"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+
+        >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,57 +27,57 @@
         <activity
             android:name=".NewGamePopup"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity
             android:name=".SaveGameStartInput"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".AddNewPartija"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".IgraActivity"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".DeleteIgraActivity"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".DeletePartijaActivity"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".PartijaActivity"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".NewInput"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".DeleteZapisActivity"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".QuickGameActivity"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".QuickNewInput"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".DeleteQuickZapisActivity"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".QuickPartijaPoints"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
         <activity android:name=".StartNewQuickGame"
             android:theme="@style/TransparentTheme"
-            android:screenOrientation="portrait"/>
+            />
 
     </application>
 
